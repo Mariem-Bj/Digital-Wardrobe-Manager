@@ -1,25 +1,27 @@
 Digital Wardrobe Manager 
 
-This digital wardrobe manager is a console app coded using Java programming language. It allows the user to manage the items they have, flag what needs repair, get care recommendations, and more. It is inspired by the aftercare clothing concept of Save Your Wardrobe. 
+This digital wardrobe manager is a console app coded using Java programming language. It allows the user to manage the items they have, flag what needs repair, get care recommendations, and more. It is inspired by the digital wardrobe concept. 
 
 Features: 
 
--Add, view, search, remove an item. 
+-Add, view, search (by category or color), remove an item. 
 
 -Update an item's condition and flag whether it needs repair or not. 
+
+-Summary stats: total number of items, items needing repair, items per category.
 
 -Get care recommendations for each garment type. 
 
 
 How to run: 
 
-Requires Java 8 or later. 
+-Requires Java 21 or later. 
 
-Download or clone this repository. 
+-Download or clone this repository. 
 
-In Eclipse: File > Import > Existing Projects in Workspace, and select the folder. 
+-In Eclipse: File > Import > Existing Projects in Workspace, and select the folder. 
 
-Run "Test.java". 
+-Run "Test.java". 
 
 
 Design Notes: 
@@ -29,7 +31,7 @@ Design Notes:
 -"Top", "Bottom", "Outerwear" and "Shoes" are subclasses that implement the class "Clothing Items", overriding the method "careSpecialist" with the right care for each type of garment. 
 
 -All items are stored in one ArrayList : ArrayList <ClothingItems>. 
- 
+
 
 Possible improvements: 
 
